@@ -9,10 +9,10 @@
 public class RKPieChartItem {
     
     var ratio: CGFloat
-    var color: UIColor
+    public private(set) color: UIColor
     var startAngle: CGFloat?
     var endAngle: CGFloat?
-    var title: String?
+    public private(set) title: String?
     var font: UIFont?
     
     
